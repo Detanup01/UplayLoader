@@ -1,0 +1,1 @@
+G:\VS\ForCSRIN\UplayServer\Client\upc_r2\bin\Debug\net6.0
