@@ -1,3 +1,5 @@
+_d.dll's are built with Debug mode!
+
 The path.txt use to communicate to all uplay style dll file in ClientApp
 Place your path to the txt
 Example:
