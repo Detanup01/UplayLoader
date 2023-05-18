@@ -645,4 +645,45 @@ EXPORT int UPC_UserPlayedWithAdd_Extended(intptr_t inContext, intptr_t inUserIdU
     return proxyFunc(inContext, inUserIdUtf8List, inListLength, unknown1, unknown2);
 }
 
+EXPORT intptr_t UPC_ContextCreate(uint32_t inVersion, intptr_t inOptSetting)
+{
+    GET_PROXY_FUNC(UPC_ContextCreate);
+    return proxyFunc(inVersion, inOptSetting);
+}
+
+EXPORT intptr_t UPC_ErrorToString(int32_t error)
+{
+    GET_PROXY_FUNC(UPC_ErrorToString);
+    return proxyFunc(error);
+}
+
+EXPORT intptr_t UPC_EmailGet(intptr_t inContext)
+{
+    GET_PROXY_FUNC(UPC_EmailGet);
+    return proxyFunc(inContext);
+}
+
+EXPORT intptr_t UPC_IdGet(intptr_t inContext)
+{
+    GET_PROXY_FUNC(UPC_IdGet);
+    return proxyFunc(inContext);
+}
+
+EXPORT intptr_t UPC_InstallLanguageGet(intptr_t inContext)
+{
+    GET_PROXY_FUNC(UPC_InstallLanguageGet);
+    return proxyFunc(inContext);
+}
+
+EXPORT intptr_t UPC_NameGet(intptr_t inContext)
+{
+    GET_PROXY_FUNC(UPC_NameGet);
+    return proxyFunc(inContext);
+}
+
+EXPORT intptr_t UPC_TicketGet(intptr_t inContext)
+{
+    GET_PROXY_FUNC(UPC_TicketGet);
+    return proxyFunc(inContext);
+}
 #pragma endregion
