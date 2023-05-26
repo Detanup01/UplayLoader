@@ -10,3 +10,5 @@ The dll must in that directory, if you dont place the path.txt It automaticly tr
 main.crt file to know the file was signed by me.
 (If you add this as Root CA you can sure all app are signed & tested by me | NOT NEEDED)
 
+upc_r2 can be renamed to uplay_r2
+upc_r1 can be renamed to uplay_r1
