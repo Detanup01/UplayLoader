@@ -651,37 +651,37 @@ EXPORT intptr_t UPC_ContextCreate(uint32_t inVersion, intptr_t inOptSetting)
     return proxyFunc(inVersion, inOptSetting);
 }
 
-EXPORT intptr_t UPC_ErrorToString(int32_t error)
+EXPORT const char* UPC_ErrorToString(int32_t error)
 {
     GET_PROXY_FUNC(UPC_ErrorToString);
     return proxyFunc(error);
 }
 
-EXPORT intptr_t UPC_EmailGet(intptr_t inContext)
+EXPORT const char* UPC_EmailGet(intptr_t inContext)
 {
     GET_PROXY_FUNC(UPC_EmailGet);
     return proxyFunc(inContext);
 }
 
-EXPORT intptr_t UPC_IdGet(intptr_t inContext)
+EXPORT const char* UPC_IdGet(intptr_t inContext)
 {
     GET_PROXY_FUNC(UPC_IdGet);
     return proxyFunc(inContext);
 }
 
-EXPORT intptr_t UPC_InstallLanguageGet(intptr_t inContext)
+EXPORT const char* UPC_InstallLanguageGet(intptr_t inContext)
 {
     GET_PROXY_FUNC(UPC_InstallLanguageGet);
     return proxyFunc(inContext);
 }
 
-EXPORT intptr_t UPC_NameGet(intptr_t inContext)
+EXPORT const char* UPC_NameGet(intptr_t inContext)
 {
     GET_PROXY_FUNC(UPC_NameGet);
     return proxyFunc(inContext);
 }
 
-EXPORT intptr_t UPC_TicketGet(intptr_t inContext)
+EXPORT const char* UPC_TicketGet(intptr_t inContext)
 {
     GET_PROXY_FUNC(UPC_TicketGet);
     return proxyFunc(inContext);
