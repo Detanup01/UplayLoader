@@ -691,13 +691,13 @@ EXPORT bool UPLAY_USER_ConsumeItem(intptr_t aTransactionIdUtf8, unsigned aUplayI
     return proxyFunc(aTransactionIdUtf8, aUplayId, aQuantity, aSignatureUtf8, aOverlapped, aOutResult);
 }
 
-EXPORT intptr_t UPLAY_USER_GetAccountId(intptr_t aOutAccountId)
+EXPORT const char* UPLAY_USER_GetAccountId(intptr_t aOutAccountId)
 {
     GET_PROXY_FUNC(UPLAY_USER_GetAccountId);
     return proxyFunc(aOutAccountId);
 }
 
-EXPORT intptr_t UPLAY_USER_GetAccountIdUtf8()
+EXPORT const char* UPLAY_USER_GetAccountIdUtf8()
 {
     GET_PROXY_FUNC(UPLAY_USER_GetAccountIdUtf8);
     return proxyFunc();
@@ -709,7 +709,7 @@ EXPORT bool UPLAY_USER_GetCPUScore(intptr_t aOutCpuScore)
     return proxyFunc(aOutCpuScore);
 }
 
-EXPORT intptr_t UPLAY_USER_GetCdKeyUtf8(unsigned aUplayId)
+EXPORT const char* UPLAY_USER_GetCdKeyUtf8(unsigned aUplayId)
 {
     GET_PROXY_FUNC(UPLAY_USER_GetCdKeyUtf8);
     return proxyFunc(aUplayId);
@@ -733,13 +733,13 @@ EXPORT bool UPLAY_USER_GetCredentials(intptr_t aOutUserCredentials, intptr_t aOv
     return proxyFunc(aOutUserCredentials, aOverlapped);
 }
 
-EXPORT intptr_t UPLAY_USER_GetEmail(intptr_t aOutEmail)
+EXPORT const char* UPLAY_USER_GetEmail(intptr_t aOutEmail)
 {
     GET_PROXY_FUNC(UPLAY_USER_GetEmail);
     return proxyFunc(aOutEmail);
 }
 
-EXPORT intptr_t UPLAY_USER_GetEmailUtf8()
+EXPORT const char* UPLAY_USER_GetEmailUtf8()
 {
     GET_PROXY_FUNC(UPLAY_USER_GetEmailUtf8);
     return proxyFunc();
@@ -757,19 +757,19 @@ EXPORT bool UPLAY_USER_GetGPUScoreConfidenceLevel(intptr_t aOutConfidenceLevel)
     return proxyFunc(aOutConfidenceLevel);
 }
 
-EXPORT intptr_t UPLAY_USER_GetNameUtf8()
+EXPORT const char* UPLAY_USER_GetNameUtf8()
 {
     GET_PROXY_FUNC(UPLAY_USER_GetNameUtf8);
     return proxyFunc();
 }
 
-EXPORT intptr_t UPLAY_USER_GetPassword(intptr_t aOutPassword)
+EXPORT const char* UPLAY_USER_GetPassword(intptr_t aOutPassword)
 {
     GET_PROXY_FUNC(UPLAY_USER_GetPassword);
     return proxyFunc(aOutPassword);
 }
 
-EXPORT intptr_t UPLAY_USER_GetPasswordUtf8()
+EXPORT const char* UPLAY_USER_GetPasswordUtf8()
 {
     GET_PROXY_FUNC(UPLAY_USER_GetPasswordUtf8);
     return proxyFunc();
@@ -781,19 +781,19 @@ EXPORT bool UPLAY_USER_GetProfile(intptr_t aAccountIdUtf8, intptr_t aOverlapped,
     return proxyFunc(aAccountIdUtf8, aOverlapped, aOutProfile);
 }
 
-EXPORT intptr_t UPLAY_USER_GetTicketUtf8()
+EXPORT const char* UPLAY_USER_GetTicketUtf8()
 {
     GET_PROXY_FUNC(UPLAY_USER_GetTicketUtf8);
     return proxyFunc();
 }
 
-EXPORT intptr_t UPLAY_USER_GetUsername(intptr_t aOutUsername)
+EXPORT const char* UPLAY_USER_GetUsername(intptr_t aOutUsername)
 {
     GET_PROXY_FUNC(UPLAY_USER_GetUsername);
     return proxyFunc(aOutUsername);
 }
 
-EXPORT intptr_t UPLAY_USER_GetUsernameUtf8()
+EXPORT const char* UPLAY_USER_GetUsernameUtf8()
 {
     GET_PROXY_FUNC(UPLAY_USER_GetUsernameUtf8);
     return proxyFunc();
