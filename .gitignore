@@ -398,3 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 signer.pfx
 /Dll/sign.bat
+/TestApp
