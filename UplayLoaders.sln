@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upc_r2_loader_proxy", "upc_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "TestApp\TestApp.vcxproj", "{075ACEFA-7803-48E5-A4BE-0BA59552C950}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upc_r1_loader_proxy", "upc_r1_loader_proxy\upc_r1_loader_proxy.vcxproj", "{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{075ACEFA-7803-48E5-A4BE-0BA59552C950}.Release|x64.Build.0 = Release|x64
 		{075ACEFA-7803-48E5-A4BE-0BA59552C950}.Release|x86.ActiveCfg = Release|Win32
 		{075ACEFA-7803-48E5-A4BE-0BA59552C950}.Release|x86.Build.0 = Release|Win32
+		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Debug|x64.ActiveCfg = Debug|x64
+		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Debug|x64.Build.0 = Debug|x64
+		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Debug|x86.ActiveCfg = Debug|Win32
+		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Debug|x86.Build.0 = Debug|Win32
+		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Release|x64.ActiveCfg = Release|x64
+		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Release|x64.Build.0 = Release|x64
+		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Release|x86.ActiveCfg = Release|Win32
+		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
