@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "TestApp\TestApp.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upc_r1_loader_proxy", "upc_r1_loader_proxy\upc_r1_loader_proxy.vcxproj", "{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wintrust_bypass", "wintrust_bypass\wintrust_bypass.vcxproj", "{2CA6E2A4-1F78-4410-842C-227D1779FA01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Release|x64.Build.0 = Release|x64
 		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Release|x86.ActiveCfg = Release|Win32
 		{06EED22D-AFEE-41BD-BB26-33C4BEB7B642}.Release|x86.Build.0 = Release|Win32
+		{2CA6E2A4-1F78-4410-842C-227D1779FA01}.Debug|x64.ActiveCfg = Debug|x64
+		{2CA6E2A4-1F78-4410-842C-227D1779FA01}.Debug|x64.Build.0 = Debug|x64
+		{2CA6E2A4-1F78-4410-842C-227D1779FA01}.Debug|x86.ActiveCfg = Debug|Win32
+		{2CA6E2A4-1F78-4410-842C-227D1779FA01}.Debug|x86.Build.0 = Debug|Win32
+		{2CA6E2A4-1F78-4410-842C-227D1779FA01}.Release|x64.ActiveCfg = Release|x64
+		{2CA6E2A4-1F78-4410-842C-227D1779FA01}.Release|x64.Build.0 = Release|x64
+		{2CA6E2A4-1F78-4410-842C-227D1779FA01}.Release|x86.ActiveCfg = Release|Win32
+		{2CA6E2A4-1F78-4410-842C-227D1779FA01}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

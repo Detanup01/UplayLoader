@@ -12,3 +12,9 @@ main.crt file to know the file was signed by me.
 
 upc_r2 can be renamed to uplay_r2
 upc_r1 can be renamed to uplay_r1
+
+wintrust_o.dll
+this DLL is the original of the wintrust.dll (from C:\Windows\System32\wintrust.dll) currently used as middleware to bypass WinVerifyTrust
+
+wintrust.dll
+this dll is the bypass for WinVerifyTrust. Make sure you add next to your .exe file and next to wintrust_o.dll!

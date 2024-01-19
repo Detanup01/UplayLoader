@@ -308,7 +308,7 @@ EXPORT bool UPLAY_GetLastError(intptr_t aOutErrorString)
 
 EXPORT bool UPLAY_GetNextEvent(intptr_t aEvent)
 {
-    PRINT_DEBUG("%s %s\n", __FUNCTION__, aEvent);
+    PRINT_DEBUG("%s %p\n", __FUNCTION__, aEvent);
     GET_PROXY_FUNC(UPLAY_GetNextEvent);
     auto ret = proxyFunc(aEvent);
     PRINT_DEBUG("%s Return: %d\n", __FUNCTION__, ret);
@@ -796,7 +796,7 @@ EXPORT int UPLAY_Start(unsigned aUplayId, unsigned aFlags)
 
 EXPORT bool UPLAY_Startup(unsigned aUplayId, unsigned aGameVersion, intptr_t aLanguageCountryCodeUtf8)
 {
-    PRINT_DEBUG("%s\n", __FUNCTION__);
+    PRINT_DEBUG("%s %u %u %p\n", __FUNCTION__, aUplayId, aGameVersion, aLanguageCountryCodeUtf8);
     GET_PROXY_FUNC(UPLAY_Startup);
     return proxyFunc(aUplayId, aGameVersion, aLanguageCountryCodeUtf8);
 }
@@ -876,7 +876,6 @@ EXPORT const char* UPLAY_USER_GetEmailUtf8()
     PRINT_DEBUG("%s\n", __FUNCTION__);
     GET_PROXY_FUNC(UPLAY_USER_GetEmailUtf8);
     auto ret = proxyFunc();
-    PRINT_DEBUG("%s Return: %s\n", __FUNCTION__, ret);
     return ret;
 }
 
@@ -905,7 +904,8 @@ EXPORT const char* UPLAY_USER_GetPassword(intptr_t aOutPassword)
 {
     PRINT_DEBUG("%s\n", __FUNCTION__);
     GET_PROXY_FUNC(UPLAY_USER_GetPassword);
-    return proxyFunc(aOutPassword);
+    auto ret = proxyFunc(aOutPassword);
+    return ret;
 }
 
 EXPORT const char* UPLAY_USER_GetPasswordUtf8()
@@ -933,7 +933,8 @@ EXPORT const char* UPLAY_USER_GetUsername(intptr_t aOutUsername)
 {
     PRINT_DEBUG("%s\n", __FUNCTION__);
     GET_PROXY_FUNC(UPLAY_USER_GetUsername);
-    return proxyFunc(aOutUsername);
+    auto ret =  proxyFunc(aOutUsername);
+    return ret;
 }
 
 EXPORT const char* UPLAY_USER_GetUsernameUtf8()
