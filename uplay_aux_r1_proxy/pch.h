@@ -16,4 +16,10 @@
 
 #define EXPORT extern "C" _declspec(dllexport)
 
+
+#define PTR_TO_UINT64(x) (uint64_t)(uintptr_t)(x)
+
+typedef unsigned __int64 QWORD;
+
+
 #endif //PCH_H
